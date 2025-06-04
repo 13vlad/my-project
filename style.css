@@ -225,3 +225,41 @@ time, mark, audio, video {
 }
 
 /*end footer*/
+.account .account_my h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 33px;
+    margin-bottom: 64px;
+}
+
+.account .dashboard ul {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    gap: 49px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #707070;
+    margin-bottom: 73px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.account .hello {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 205px;
+}
+
+.account .hello .one {
+    margin-bottom: 24px;
+}
+
+.account .dashboard ul li {
+    margin-bottom: -1px;
+    padding-bottom: 34px;
+}
+
+.account .dashboard ul .active {
+    color: black;
+    border-bottom: 1px solid black;
+}
