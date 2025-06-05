@@ -92,7 +92,7 @@ time, mark, audio, video {
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
-    letter-spacing: 0%;
+    /*letter-spacing: 0%;*/
     color: white;
 }
 
@@ -124,7 +124,7 @@ time, mark, audio, video {
     font-weight: 500;
     font-size: 33px;
     line-height: 43px;
-    letter-spacing: 0%;
+    /*letter-spacing: 0%;*/
     float: left;
 }
 
@@ -136,7 +136,7 @@ time, mark, audio, video {
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    letter-spacing: 0%;
+    /*letter-spacing: 0%;*/
     text-transform: capitalize;
     float: left;
     color: #a18a68;
@@ -244,22 +244,18 @@ time, mark, audio, video {
     margin-bottom: 73px;
     border-bottom: 1px solid #D8D8D8;
 }
-
 .account .hello {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 205px;
 }
-
 .account .hello .one {
     margin-bottom: 24px;
 }
-
 .account .dashboard ul li {
     margin-bottom: -1px;
     padding-bottom: 34px;
 }
-
 .account .dashboard ul .active {
     color: black;
     border-bottom: 1px solid black;
@@ -278,26 +274,51 @@ time, mark, audio, video {
     margin-bottom: 73px;
     border-bottom: 1px solid #D8D8D8;
 }
-
 .table .orders ul li {
     margin-bottom: -1px;
     padding-bottom: 34px;
 }
-
 .table .orders ul .downloads {
     color: black;
     border-bottom: 1px solid black;
 }
-
 .table .table_price .tables {
     width: 100%;
     /*display: table;*/
     /*align-items: center;*/
+    /*text-align: left;*/
+    /*margin: 0 auto;*/
+    border-collapse: collapse;
+    /*border-spacing: 45px;*/
+}
+.table .table_price .tables tbody tr {
+    border-bottom: 1px solid #D8D8D8;
+
+}
+.table .table_price .tables thead tr {
+    border-bottom: 1px solid black;
+}
+.table .table_price .tables thead .actions{
+    /*text-align: center;*/
+}
+.table .table_price .tables .view_order{
+    /*text-align: right;*/
+}
+.table .table_price .tables thead th {
     text-align: left;
     font-weight: 400;
     font-size: 16px;
-    /*margin: 0 auto;*/
+    padding-bottom: 16px;
 }
+.table .table_price .tables td {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    color: #707070;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 
 
