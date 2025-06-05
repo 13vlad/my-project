@@ -225,6 +225,7 @@ time, mark, audio, video {
 }
 
 /*end footer*/
+/*start*/
 .account .account_my h2 {
     text-align: center;
     font-weight: 500;
@@ -263,3 +264,40 @@ time, mark, audio, video {
     color: black;
     border-bottom: 1px solid black;
 }
+
+/*end*/
+/*start*/
+.table .orders ul {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    gap: 49px;
+    font-weight: 400;
+    font-size: 26px;
+    color: #707070;
+    margin-bottom: 73px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.table .orders ul li {
+    margin-bottom: -1px;
+    padding-bottom: 34px;
+}
+
+.table .orders ul .downloads {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.table .table_price .tables {
+    width: 100%;
+    /*display: table;*/
+    /*align-items: center;*/
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    /*margin: 0 auto;*/
+}
+
+
+
