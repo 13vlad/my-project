@@ -244,18 +244,22 @@ time, mark, audio, video {
     margin-bottom: 73px;
     border-bottom: 1px solid #D8D8D8;
 }
+
 .account .hello {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 205px;
 }
+
 .account .hello .one {
     margin-bottom: 24px;
 }
+
 .account .dashboard ul li {
     margin-bottom: -1px;
     padding-bottom: 34px;
 }
+
 .account .dashboard ul .active {
     color: black;
     border-bottom: 1px solid black;
@@ -274,14 +278,17 @@ time, mark, audio, video {
     margin-bottom: 73px;
     border-bottom: 1px solid #D8D8D8;
 }
+
 .table .orders ul li {
     margin-bottom: -1px;
     padding-bottom: 34px;
 }
+
 .table .orders ul .downloads {
     color: black;
     border-bottom: 1px solid black;
 }
+
 .table .table_price .tables {
     width: 100%;
     /*display: table;*/
@@ -291,18 +298,13 @@ time, mark, audio, video {
     border-collapse: collapse;
     /*border-spacing: 45px;*/
 }
+
 .table .table_price .tables tbody tr {
     border-bottom: 1px solid #D8D8D8;
 
 }
 .table .table_price .tables thead tr {
     border-bottom: 1px solid black;
-}
-.table .table_price .tables thead .actions{
-    /*text-align: center;*/
-}
-.table .table_price .tables .view_order{
-    /*text-align: right;*/
 }
 .table .table_price .tables thead th {
     text-align: left;
@@ -318,7 +320,23 @@ time, mark, audio, video {
     font-weight: 400;
     font-size: 16px;
 }
-
-
+/*start*/
+.follow {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.follow span{
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 96px;
+}
+.follow .follow-img{
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    gap: 39px;
+    margin-left: 142px;
+    margin-top: 64px;
+}
+/*end*/
 
 
