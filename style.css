@@ -338,5 +338,73 @@ time, mark, audio, video {
     margin-top: 64px;
 }
 /*end*/
-
-
+.form {
+    margin-top: 100px;
+}
+.form .text-check {
+    text-align: center;
+    font-weight: 500;
+    font-size: 33px;
+    margin-bottom: 64px;
+}
+.form .returning{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+.form .returning .click{
+    margin-bottom: 16px;
+}
+.form .form_one{
+    border: 2px solid #D8D8D8;
+    width: 40%;
+    height: 181px;
+    margin-top: 24px;
+}
+.form .form_one p{
+    padding-top: 24px;
+    padding-bottom: 39px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+.form .form_one button{
+    width: 168px;
+    height: 53px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.form .form_one input{
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    width: 336px;
+    height: 41px;
+    color: #707070;
+    padding-left: 24px;
+}
+.form .form-two{
+    max-width: 50%;
+    margin-top: 50px;
+}
+.form .form-two p{
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 26px;
+}
+.form .form-two input{
+    width: 580px;
+    height: 39px;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+}
+.form .form-two .first-name{
+    width: 270px;
+    height: 39px;
+    padding-right: 35px;
+}
+.form .form-two .last-name{
+    width: 270px;
+    height: 39px;
+}
